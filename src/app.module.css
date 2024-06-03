@@ -1,0 +1,116 @@
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css');
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+html {
+	height: 100%;
+}
+
+body {
+	/* Remember to use the other versions for IE 10 and older browsers! */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100%;
+	font-family: 'lato', sans-serif;
+	color: #fff;
+	background: #222222;
+	background: #16222a; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to top,
+		#16222a,
+		#3a6073
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to top,
+		#16222a,
+		#3a6073
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+	background: rgba(58, 63, 68, 0.5);
+	border-radius: 5px;
+	box-shadow: 0 1.5px 0 0 rgba(0, 0, 0, 0.1);
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+}
+
+.logo {
+	font-family: 'museo-slab';
+	font-size: 24px;
+	text-align: center;
+	padding: 20px 20px 0;
+	margin: 0;
+}
+
+.loginItem {
+	color: #ffff;
+	padding: 0px 25px 0;
+	margin: 15px 20px 0;
+	border-radius: 3px;
+}
+
+input {
+	border: 0;
+	color: inherit;
+	font: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+	width: 100%;
+	color: #5b5b5b;
+	border-radius: 0.25rem;
+	padding: 10px 0px 10px 0px;
+	color: #3a3f44;
+}
+
+.formBtn {
+	background-color: #00b9bc;
+	color: #eee;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 0.25rem;
+	padding: 1rem;
+	color: #3a3f44;
+	width: 100%;
+}
+
+.formBtn:hover {
+	background-color: #197071;
+}
+
+.formField {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	/* display: flex; */
+	margin-bottom: 0.5rem;
+}
+
+.form-field_pass {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 0.5rem;
+}
+
+.text--center {
+	text-align: center;
+}
+
+.wrongPassword {
+	font-size: 12px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5px;
+	padding: 0;
+	min-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: red;
+}
